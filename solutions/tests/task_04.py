@@ -1,4 +1,4 @@
 a,b=map(int,input().split())
-def swap(n,m):
-    return n-n+m,m-m+n
+def swap(a,b):
+    return a-a+b,b-b+a
 print(swap(a,b))
