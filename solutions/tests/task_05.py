@@ -1,4 +1,4 @@
 a=input()
-def greet(n):
-    return n
+def greet(username):
+    return username
 print(f'Hello, {greet(a)}')
