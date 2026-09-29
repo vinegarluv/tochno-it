@@ -1,8 +1,8 @@
 a,b=map(int,input().split())
-def is_divisor(n,m):
-    if n==0:
+def is_divisor(a,b):
+    if a==0:
         return False
-    if m%n==0:
+    if b%a==0:
         return True
     else:
         return False
