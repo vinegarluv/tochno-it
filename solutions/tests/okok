@@ -1,1 +1,17 @@
 Хочу электрогитару гибсон черного цвета с позолоченными краями и е###ить рифы на нем, подключив гитару к ноуту.
+Список покупок:
+-яйца 10 штук
+-молоко 1 литр
+-мука 1 кг
+-соль 1 кг
+-сахар 1 кг
+-насвай 1 пачка
+a,b=map(int,input().split())
+def pasture_area(wire,w):
+    l=(wire-2*w)/3
+    return l*w
+print(pasture_area(a,b))
+def best_pasture(wire,w):
+    k=max(pasture_area(wire,w))
+    return k
+print(best_pasture(a,b))
